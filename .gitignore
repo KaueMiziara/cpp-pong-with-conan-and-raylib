@@ -3,3 +3,11 @@ conan.lock
 conanbuildinfo**
 conaninfo.txt
 graph_info.json
+
+# CMake files
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+bin
