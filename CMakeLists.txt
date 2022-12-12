@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(PongRaylib)
 
-set(my_includes "./includes/header.h")
-set(my_cpp "./src/main.cpp" "./src/header.cpp")
+set(my_includes "./includes/actors.h" "./includes/score.h")
+set(my_cpp "./src/main.cpp" "./src/actors.cpp" "./src/score.cpp")
 
 add_definitions("-std=c++11")
 
