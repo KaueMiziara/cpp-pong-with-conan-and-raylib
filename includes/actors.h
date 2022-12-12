@@ -6,8 +6,8 @@
 namespace Pong {
 
 	// Globals
-	const int screen_width = 810;
-	const int screen_height = 540;
+	const int SCREEN_WIDTH = 810;
+	const int SCREEN_HEIGHT = 540;
 	const int BAR_SPEED = 5;
 	
 	class Player {

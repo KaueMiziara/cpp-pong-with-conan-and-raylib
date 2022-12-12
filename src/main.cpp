@@ -4,7 +4,7 @@
 
 
 int main(int argc, char** argv) {
-	InitWindow(Pong::screen_width, Pong::screen_height, "Pong test (C++, raylib)");
+	InitWindow(Pong::SCREEN_WIDTH, Pong::SCREEN_HEIGHT, "Pong test (C++, raylib)");
 	SetTargetFPS(30);
 
 	// Players
@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 	player1.score = 0;
 
 	Pong::Player player2;
-	player2.PlayerInitialize(Pong::screen_width - 95, 20);
+	player2.PlayerInitialize(Pong::SCREEN_WIDTH - 95, 20);
 	player2.score = 0;
 
 	Pong::Ball ball;

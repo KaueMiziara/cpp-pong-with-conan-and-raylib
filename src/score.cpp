@@ -15,15 +15,15 @@ namespace Pong {
 		int textX;
 
 		if (IsWindowFullscreen())
-			textX = screen_width/2 - 34;
+			textX = SCREEN_WIDTH/2 - 34;
 		else
-			textX = screen_width/2 - 50;
+			textX = SCREEN_WIDTH/2 - 50;
 		
 		DrawText(char_text, textX, 20, 40, WHITE);
 	}
 
 	void Score::UpdateScore(Ball *ball, Player *player1, Player *player2) {
-		if (ball->posX > screen_width - 75) {
+		if (ball->posX > SCREEN_WIDTH - 75) {
 			player1->score++;
 			ball->BallInitialize(20);
 		}
